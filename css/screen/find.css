@@ -1,0 +1,61 @@
+.check-title {
+  font-size: 30px;
+  font-weight: 800px;
+  color: black;
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+}
+.find-body img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 0;
+}
+.head {
+  position: absolute;
+  z-index: 3;
+  bottom: 480px;
+  left: 48%;
+}
+.nose {
+  position: absolute;
+  bottom: 330px;
+  left: 48%;
+}
+.neck {
+  position: absolute;
+  bottom: 180px;
+  left: 40%;
+}
+.arm {
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+}
+.lung {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+.large-intestine {
+  position: absolute;
+  bottom: -250px;
+  left: 50%;
+}
+.foot {
+  position: absolute;
+  bottom: -600px;
+  left: 35%;
+}
+.submit-doctor {
+  position: absolute;
+  bottom: 450px;
+  left: 69%;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 800;
+  background-color: #ff0000;
+}

@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "variable.css";
+/*componets*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
+/*screen*/
+@import "screen/login.css";
+@import "screen/doctors.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat-room.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  height: 100vh;
+  background-color: #2e5083;
+}
+i {
+  color: black;
+}

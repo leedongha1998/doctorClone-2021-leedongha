@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Find-Doctor Talk</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__1">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__2">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__3">
+        <span>25%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i><span> QR Code </span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-user-plus"></i><span> Add by Contacts </span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i><span> Add by ID </span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i><span> Invite </span>
+        </div>
+      </div>
+      <div class="find-body">
+        <h1 class="check-title">어디가 아프신가요?</h1>
+        <img src="body.jpg" />
+      </div>
+      <form class="check">
+        <input class="head" type="checkbox" />
+        <input class="nose" type="checkbox" />
+        <input class="neck" type="checkbox" />
+        <input class="arm" type="checkbox" />
+        <input class="lung" type="checkbox" />
+        <input class="large-intestine" type="checkbox" />
+        <input class="foot" type="checkbox" />
+        <input
+          class="submit-doctor"
+          type="submit"
+          value="전문의에게 제출하기"
+        />
+      </form>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="doctors.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <span class="nav__notification badge">2</span>
+          <a class="nav__link" href="chats.html"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>화면이 너무 커요 ㅠㅠ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/7d0715bca4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

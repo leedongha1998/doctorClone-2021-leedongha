@@ -1,0 +1,63 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 90px;
+}
+.welcome-header h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.welcome-header p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.login-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-main__input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+.login-main__input input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 50px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+.login-main__input input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login-main__input input:first-child {
+  margin-bottom: 30px;
+}
+.login-main__input input:focus {
+  border-color: var(--Doctor-color);
+}
+
+.login-main__input input[type="submit"] {
+  background-color: var(--Doctor-color);
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+.login-main__input a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
